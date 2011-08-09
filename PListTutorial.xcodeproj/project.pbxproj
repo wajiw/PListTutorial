@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F21546213F1FC7F009C2A4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F21546113F1FC7F009C2A4E /* UIKit.framework */; };
+		2F21546413F1FC7F009C2A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F21546313F1FC7F009C2A4E /* Foundation.framework */; };
+		2F21546613F1FC7F009C2A4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F21546513F1FC7F009C2A4E /* CoreGraphics.framework */; };
+		2F21546C13F1FC7F009C2A4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F21546A13F1FC7F009C2A4E /* InfoPlist.strings */; };
+		2F21546F13F1FC7F009C2A4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F21546E13F1FC7F009C2A4E /* main.m */; };
+		2F21547213F1FC7F009C2A4E /* PListTutorialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F21547113F1FC7F009C2A4E /* PListTutorialAppDelegate.m */; };
+		2F21547513F1FC7F009C2A4E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F21547313F1FC7F009C2A4E /* MainWindow.xib */; };
+		2F21547813F1FC7F009C2A4E /* PListTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F21547713F1FC7F009C2A4E /* PListTutorialViewController.m */; };
+		2F21547B13F1FC7F009C2A4E /* PListTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F21547913F1FC7F009C2A4E /* PListTutorialViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F21545D13F1FC7F009C2A4E /* PListTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PListTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F21546113F1FC7F009C2A4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F21546313F1FC7F009C2A4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F21546513F1FC7F009C2A4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F21546913F1FC7F009C2A4E /* PListTutorial-Info.plist */ = {isa = PBXFileReference; path = "PListTutorial-Info.plist"; sourceTree = "<group>"; };
+		2F21546B13F1FC7F009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F21546D13F1FC7F009C2A4E /* PListTutorial-Prefix.pch */ = {isa = PBXFileReference; path = "PListTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		2F21546E13F1FC7F009C2A4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F21547013F1FC7F009C2A4E /* PListTutorialAppDelegate.h */ = {isa = PBXFileReference; path = PListTutorialAppDelegate.h; sourceTree = "<group>"; };
+		2F21547113F1FC7F009C2A4E /* PListTutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PListTutorialAppDelegate.m; sourceTree = "<group>"; };
+		2F21547413F1FC7F009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2F21547613F1FC7F009C2A4E /* PListTutorialViewController.h */ = {isa = PBXFileReference; path = PListTutorialViewController.h; sourceTree = "<group>"; };
+		2F21547713F1FC7F009C2A4E /* PListTutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PListTutorialViewController.m; sourceTree = "<group>"; };
+		2F21547A13F1FC7F009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PListTutorialViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F21545A13F1FC7F009C2A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F21546213F1FC7F009C2A4E /* UIKit.framework in Frameworks */,
+				2F21546413F1FC7F009C2A4E /* Foundation.framework in Frameworks */,
+				2F21546613F1FC7F009C2A4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F21545213F1FC7F009C2A4E = {
+			isa = PBXGroup;
+			children = (
+				2F21546713F1FC7F009C2A4E /* PListTutorial */,
+				2F21546013F1FC7F009C2A4E /* Frameworks */,
+				2F21545E13F1FC7F009C2A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F21545E13F1FC7F009C2A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F21545D13F1FC7F009C2A4E /* PListTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F21546013F1FC7F009C2A4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F21546113F1FC7F009C2A4E /* UIKit.framework */,
+				2F21546313F1FC7F009C2A4E /* Foundation.framework */,
+				2F21546513F1FC7F009C2A4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F21546713F1FC7F009C2A4E /* PListTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				2F21547013F1FC7F009C2A4E /* PListTutorialAppDelegate.h */,
+				2F21547113F1FC7F009C2A4E /* PListTutorialAppDelegate.m */,
+				2F21547313F1FC7F009C2A4E /* MainWindow.xib */,
+				2F21547613F1FC7F009C2A4E /* PListTutorialViewController.h */,
+				2F21547713F1FC7F009C2A4E /* PListTutorialViewController.m */,
+				2F21547913F1FC7F009C2A4E /* PListTutorialViewController.xib */,
+				2F21546813F1FC7F009C2A4E /* Supporting Files */,
+			);
+			path = PListTutorial;
+			sourceTree = "<group>";
+		};
+		2F21546813F1FC7F009C2A4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F21546913F1FC7F009C2A4E /* PListTutorial-Info.plist */,
+				2F21546A13F1FC7F009C2A4E /* InfoPlist.strings */,
+				2F21546D13F1FC7F009C2A4E /* PListTutorial-Prefix.pch */,
+				2F21546E13F1FC7F009C2A4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F21545C13F1FC7F009C2A4E /* PListTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F21547E13F1FC7F009C2A4E /* Build configuration list for PBXNativeTarget "PListTutorial" */;
+			buildPhases = (
+				2F21545913F1FC7F009C2A4E /* Sources */,
+				2F21545A13F1FC7F009C2A4E /* Frameworks */,
+				2F21545B13F1FC7F009C2A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PListTutorial;
+			productName = PListTutorial;
+			productReference = 2F21545D13F1FC7F009C2A4E /* PListTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F21545413F1FC7F009C2A4E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2F21545713F1FC7F009C2A4E /* Build configuration list for PBXProject "PListTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F21545213F1FC7F009C2A4E;
+			productRefGroup = 2F21545E13F1FC7F009C2A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F21545C13F1FC7F009C2A4E /* PListTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F21545B13F1FC7F009C2A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F21546C13F1FC7F009C2A4E /* InfoPlist.strings in Resources */,
+				2F21547513F1FC7F009C2A4E /* MainWindow.xib in Resources */,
+				2F21547B13F1FC7F009C2A4E /* PListTutorialViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F21545913F1FC7F009C2A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F21546F13F1FC7F009C2A4E /* main.m in Sources */,
+				2F21547213F1FC7F009C2A4E /* PListTutorialAppDelegate.m in Sources */,
+				2F21547813F1FC7F009C2A4E /* PListTutorialViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F21546A13F1FC7F009C2A4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F21546B13F1FC7F009C2A4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F21547313F1FC7F009C2A4E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F21547413F1FC7F009C2A4E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2F21547913F1FC7F009C2A4E /* PListTutorialViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F21547A13F1FC7F009C2A4E /* en */,
+			);
+			name = PListTutorialViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F21547C13F1FC7F009C2A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F21547D13F1FC7F009C2A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2F21547F13F1FC7F009C2A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PListTutorial/PListTutorial-Prefix.pch";
+				INFOPLIST_FILE = "PListTutorial/PListTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F21548013F1FC7F009C2A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PListTutorial/PListTutorial-Prefix.pch";
+				INFOPLIST_FILE = "PListTutorial/PListTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F21545713F1FC7F009C2A4E /* Build configuration list for PBXProject "PListTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F21547C13F1FC7F009C2A4E /* Debug */,
+				2F21547D13F1FC7F009C2A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F21547E13F1FC7F009C2A4E /* Build configuration list for PBXNativeTarget "PListTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F21547F13F1FC7F009C2A4E /* Debug */,
+				2F21548013F1FC7F009C2A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F21545413F1FC7F009C2A4E /* Project object */;
+}
