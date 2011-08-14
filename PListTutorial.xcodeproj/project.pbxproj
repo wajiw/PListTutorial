@@ -16,6 +16,7 @@
 		2F21547513F1FC7F009C2A4E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F21547313F1FC7F009C2A4E /* MainWindow.xib */; };
 		2F21547813F1FC7F009C2A4E /* PListTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F21547713F1FC7F009C2A4E /* PListTutorialViewController.m */; };
 		2F21547B13F1FC7F009C2A4E /* PListTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F21547913F1FC7F009C2A4E /* PListTutorialViewController.xib */; };
+		2F21548213F1FE98009C2A4E /* MyArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F21548113F1FE98009C2A4E /* MyArray.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		2F21546113F1FC7F009C2A4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F21546313F1FC7F009C2A4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F21546513F1FC7F009C2A4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F21546913F1FC7F009C2A4E /* PListTutorial-Info.plist */ = {isa = PBXFileReference; path = "PListTutorial-Info.plist"; sourceTree = "<group>"; };
+		2F21546913F1FC7F009C2A4E /* PListTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PListTutorial-Info.plist"; sourceTree = "<group>"; };
 		2F21546B13F1FC7F009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F21546D13F1FC7F009C2A4E /* PListTutorial-Prefix.pch */ = {isa = PBXFileReference; path = "PListTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		2F21546D13F1FC7F009C2A4E /* PListTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PListTutorial-Prefix.pch"; sourceTree = "<group>"; };
 		2F21546E13F1FC7F009C2A4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F21547013F1FC7F009C2A4E /* PListTutorialAppDelegate.h */ = {isa = PBXFileReference; path = PListTutorialAppDelegate.h; sourceTree = "<group>"; };
+		2F21547013F1FC7F009C2A4E /* PListTutorialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PListTutorialAppDelegate.h; sourceTree = "<group>"; };
 		2F21547113F1FC7F009C2A4E /* PListTutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PListTutorialAppDelegate.m; sourceTree = "<group>"; };
 		2F21547413F1FC7F009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2F21547613F1FC7F009C2A4E /* PListTutorialViewController.h */ = {isa = PBXFileReference; path = PListTutorialViewController.h; sourceTree = "<group>"; };
+		2F21547613F1FC7F009C2A4E /* PListTutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PListTutorialViewController.h; sourceTree = "<group>"; };
 		2F21547713F1FC7F009C2A4E /* PListTutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PListTutorialViewController.m; sourceTree = "<group>"; };
 		2F21547A13F1FC7F009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PListTutorialViewController.xib; sourceTree = "<group>"; };
+		2F21548113F1FE98009C2A4E /* MyArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyArray.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				2F21547713F1FC7F009C2A4E /* PListTutorialViewController.m */,
 				2F21547913F1FC7F009C2A4E /* PListTutorialViewController.xib */,
 				2F21546813F1FC7F009C2A4E /* Supporting Files */,
+				2F21548113F1FE98009C2A4E /* MyArray.plist */,
 			);
 			path = PListTutorial;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				2F21546C13F1FC7F009C2A4E /* InfoPlist.strings in Resources */,
 				2F21547513F1FC7F009C2A4E /* MainWindow.xib in Resources */,
 				2F21547B13F1FC7F009C2A4E /* PListTutorialViewController.xib in Resources */,
+				2F21548213F1FE98009C2A4E /* MyArray.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

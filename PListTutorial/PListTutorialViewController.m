@@ -10,6 +10,32 @@
 
 @implementation PListTutorialViewController
 
+-(IBAction) loadTheList:(id)sender
+{
+    NSLog(@"%@", @" Test Click");
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"MyArray" ofType:@"plist"];
+    NSDictionary *rows = [[[NSDictionary alloc] initWithContentsOfFile:path] autorelease];
+    
+    
+    
+    for(NSString *row in rows)
+    {
+        NSArray *arr = [rows objectForKey:@"Phones"];
+        NSString *str1 = [rows objectForKey:row];
+        NSLog(@"loop 1=%@", str1);
+        for(NSString *row2 in arr)
+        {
+            NSLog(@"key=%@, val=%@", row, row2);
+            NSArray *arr2 = [rows objectForKey:row2];
+            for(NSString *phn in arr2)
+            {
+                NSLog(@"key=%@, val=%@", phn, row2);
+            }
+        }
+    }
+}
+
 - (void)dealloc
 {
     [super dealloc];
